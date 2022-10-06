@@ -15,10 +15,10 @@ public class RunProgram {
                 case 1 : System.exit(1);
                 case 0 :
                     String input = JOptionPane.showInputDialog("Type the name of your plant");
-                    runProgram(input);
+                    startActions(input);
             }
     }
-    public void runProgram(String input) {
+    public void startActions(String input) {
         Actions actions = new Actions();
         ArrayList<Plant> a = actions.getInitialArraylist();
 
