@@ -11,12 +11,13 @@ public class RunProgram {
             int choice = JOptionPane.showOptionDialog(null,"What would you like to do?", "Options",
                     JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, options,0);
 
-            switch(choice){
-                case 1 : System.exit(1);
-                case 0 :
-                    String input = JOptionPane.showInputDialog("Type the name of your plant");
-                    startActions(input);
+        switch (choice) {
+            case 1 -> System.exit(1);
+            case 0 -> {
+                String input = JOptionPane.showInputDialog("Type the name of your plant");
+                startActions(input);
             }
+        }
     }
     public void startActions(String input) {
         Actions actions = new Actions();
