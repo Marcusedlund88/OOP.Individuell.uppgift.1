@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/OOP/Sprint1/uppgift1" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/src/OOP/Sprint1/uppgift2" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/src/OOP/Sprint1/uppgift3" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/src/OOP/Sprint1/uppgift4" includeSubdirectories="true" />
+    </excludeFromCompile>
+  </component>
+</project>
