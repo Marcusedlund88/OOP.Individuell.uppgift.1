@@ -14,8 +14,7 @@ public class RunProgram {
             switch(choice){
                 case 1 : System.exit(1);
                 case 0 :
-                    String input = JOptionPane.showInputDialog("Type the name of your " +
-                            "plant or exit the program by typing \"exit\"");
+                    String input = JOptionPane.showInputDialog("Type the name of your plant");
                     runProgram(input);
             }
     }
