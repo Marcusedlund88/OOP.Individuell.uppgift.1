@@ -23,7 +23,6 @@ public class Actions {
 
     /*public ArrayList<Plant> createEmptyArraylist{}
     public ArrayList<Plant> addToArraylist(){}
-    public ArrayList<Plant> addToArraylist(){}
     public ArrayList<Plant> getUpdatedArraylist(){}
     public ArrayList<Plant> removeFromArraylist(){}
     public ArrayList<Plant> readToFile(){}

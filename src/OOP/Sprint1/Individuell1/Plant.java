@@ -1,7 +1,7 @@
 package OOP.Sprint1.Individuell1;
 
 //Parent class plant. Contains what to be inherited by its subclasses, Cactus, Palm and Carnivorous.
-//Also implements the abstract method inside the interface Calculations.
+//Also implements the abstract method inside the interface SpannableMethods.
 
 public class Plant implements SpannableMethods {
     protected double height;
