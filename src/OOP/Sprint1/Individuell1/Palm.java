@@ -1,12 +1,13 @@
 package OOP.Sprint1.Individuell1;
 import javax.swing.*;
 
-//Subclass Palm. Inherits Plant and Calculations. Overrides all methods inside its parent class
+//Subclass Palm. Inherits Plant and Calculations. Overrides getNutrition method inside its parent class
 //and uses enum PlantSpecifics to perform correct calculations and provide correct information,
 // given its specific class, regarding nutrition.
 
 public class Palm extends Plant{
     PlantSpecifics plantSpecifics;
+
 
     Palm(String name, double height, PlantSpecifics pS){
 
@@ -20,16 +21,6 @@ public class Palm extends Plant{
         nutrition = PlantSpecifics.PALM.baseAmount *height;
         return nutrition;
     }
-    @Override
-    public double getHeight() {
-        return height;
-    }
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
     @Override
     public void printMethod() {
 

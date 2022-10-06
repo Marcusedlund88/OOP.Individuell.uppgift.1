@@ -1,7 +1,7 @@
 package OOP.Sprint1.Individuell1;
 import javax.swing.*;
 
-//Subclass Carnivorous. Inherits Plant and Calculations. Overrides all methods inside its parent class
+//Subclass Carnivorous. Inherits Plant and Calculations. Overrides getNutrition method inside its parent class
 //and uses enum PlantSpecifics to perform correct calculations and provide correct information,
 // given its specific class, regarding nutrition.
 
@@ -19,16 +19,6 @@ public class Carnivorous extends Plant{
         nutrition = PlantSpecifics.CARNIVOROUS.baseAmount + (PlantSpecifics.CARNIVOROUS.extraAmount *height);
         return nutrition;
     }
-    @Override
-    public double getHeight() {
-        return height;
-    }
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
     @Override
     public void printMethod() {
         String output = PlantSpecifics.CARNIVOROUS.typeOfNutrition;

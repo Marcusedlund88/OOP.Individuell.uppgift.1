@@ -1,14 +1,13 @@
 package OOP.Sprint1.Individuell1;
 import javax.swing.*;
 
-//Subclass Cactus. Inherits Plant and Calculations. Overrides all methods inside its parent class
+//Subclass Cactus. Inherits Plant and Calculations. Overrides getNutrition method inside its parent class
 //and uses enum PlantSpecifics to perform correct calculations and provide correct information,
 // given its specific class, regarding nutrition.
 
 public class Cactus extends Plant{
     PlantSpecifics plantSpecifics;
     Cactus(String name, double height, PlantSpecifics pS){
-
 
         super(name, height);
         this.height = height;
@@ -19,15 +18,6 @@ public class Cactus extends Plant{
     public double getNutrition() {
         nutrition = PlantSpecifics.CACTUS.baseAmount;
         return nutrition;
-    }
-    @Override
-    public double getHeight() {
-        return height;
-    }
-    @Override
-    public String getName() {
-
-        return name;
     }
 
     @Override
